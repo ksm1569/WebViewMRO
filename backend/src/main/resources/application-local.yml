@@ -4,3 +4,13 @@ spring:
     driver-class-name: oracle.jdbc.OracleDriver
     username: GREENMRO
     password: ENC(wzCUX+GyL4zVdqXd8U24DyfX2XdUNAxp)
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+
+
